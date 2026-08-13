@@ -27,7 +27,7 @@ header {
     background-color: #0055CC;
     color: #ffffff;
     text-align: center;
-    padding: px 30px;
+    padding: 40px;
     border-radius: 8px 8px 0px 0px;
     display: flex;
     justify-content: center;
@@ -59,6 +59,7 @@ header p {
     font-size: 1em;
     Font-weight: 300;
     margin-bottom: 20px;
+    width: 80%;
     
 }
 
