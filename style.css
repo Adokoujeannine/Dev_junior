@@ -7,7 +7,20 @@ body {
     font-family: poppins, sans-serif;
     margin: 0%;
     padding: 0%;
-    background-color: #e9eef5;
+    background-color: #e8eef5;
+}
+.titre_section {
+       font-size: 1.8em;
+    color: #0055CC; 
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    Width: fit-content;  /* ajuster la largeur du titre en fonction du contenu */
+    margin-bottom: 20px;
+}
+
+.bloc_section {
+    padding: 24px 0px;
+    border-bottom: 1px solid #c8d4E3;
 }
 /* debut style main */
 main {
@@ -48,7 +61,7 @@ header h2 {
 }
 
 header h3 {
-    font-size: 1.2em;
+    font-size: 1.8em;
     Font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -63,4 +76,121 @@ header p {
     
 }
 
-  
+/* fin style header */
+
+/* debut style container */
+.container {
+    padding: 0 40px;
+}
+/* fin style container */
+
+/* debut style menu de navigation */
+nav {
+    padding: 20px 0px;
+    border-bottom: 1px solid #c8d4E3;
+}
+
+nav h4 {
+    /* font-size: 1.2em; */
+    /* Font-weight: bold; */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color:#888888;
+    /* letter-spacing: 2px; */
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+    padding: 5px 15px;
+
+    border: 1px solid #9dbfff;
+    border-radius: 5px;
+
+    background-color: #f5f8ff;
+    color: #075dcc;
+
+}
+
+nav ul li:hover {
+    background-color: #0055CC;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+}
+nav ul li a{
+    Text-decoration: none;
+    color: #0055CC;
+    Font-weight: bold; 
+
+}
+
+nav ul li:hover a{
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+/* fin style menu de navigation */
+
+/* debut style section profil */
+.section_profil {
+    padding: 24px 0px;
+    border-bottom: 1px solid #c8d4E3;
+
+}
+.section_profil h3 {
+    font-size: 1.2em;
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    Width: fit-content;  /* ajuster la largeur du titre en fonction du contenu */
+    margin-bottom: 20px;
+}
+
+#photo {
+width: 100px;
+height: 100px;
+background-color:#030C1B;
+border-radius: 100%;
+border: 2px solid #0055CC;
+overflow: hidden;
+margin-bottom: 20px;
+}
+
+.section_profil img {
+    display: block;
+    Width: auto;  /* ajuster la largeur de l'image en fonction du contenu */
+    Height: 150px;
+
+}
+
+.section_profil p {
+        padding: 10px 16px;
+        Background-color: #f5f8ff;   
+        border-left: 5px solid #0055CC;     
+}
+/* fin style section profil */
+
+/* debut style section mes compétences */  
+
+.list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
+}
+.list_competences li {
+           padding: 10px 16px;
+        Background-color: #f5f8ff;   
+        border-left: 5px solid #0055CC;  
+        margin-bottom: 10px;
+    }
+   /* fin style section mes compétences */
+
+/* debut style section mes expériences */  
+
+/* fin style section mes expériences */  
+ 
+
